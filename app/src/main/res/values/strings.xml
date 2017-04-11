@@ -1,0 +1,115 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of project [CHAR LIMIT-20] -->
+    <string name="Final_project">Final Project</string>
+
+    <!-- Header text for the name of the quiz [CHAR LIMIT-20] -->
+    <string name="How_well_do_you_know_your_brain">How well do you know your brain?</string>
+
+    <!-- Text for where the user enters their name [CHAR LIMIT-20] -->
+    <string name="enter_your_name_here">Enter your name here</string>
+
+    <!-- Text for the brain feels no pain [CHAR LIMIT-20] -->
+    <string name="the_brain_feels_no_pain">the brain feels no pain</string>
+
+    <!-- Name of true statement checkbox to question 1 [CHAR LIMIT-20] -->
+    <string name="true_question_1">true</string>
+
+    <!-- Name of false statement checkbox to question 1[CHAR LIMIT-20] -->
+    <string name="false_question_1">false</string>
+
+    <!-- Name of true statement checkbox to question 3 [CHAR LIMIT-20] -->
+    <string name="true_question_3">true</string>
+
+    <!-- Name of false statement checkbox to question 3[CHAR LIMIT-20] -->
+    <string name="false_question_3">false</string>
+
+    <!-- Name of true statement checkbox to question 9 [CHAR LIMIT-20] -->
+    <string name="true_question_9">true</string>
+
+    <!-- Name of false statement checkbox to question 9[CHAR LIMIT-20] -->
+    <string name="false_question_9">false</string>
+
+    <!-- Name of true statement checkbox to question 10 [CHAR LIMIT-20] -->
+    <string name="true_question_10">true</string>
+
+    <!-- Name of false statement checkbox to question 10[CHAR LIMIT-20] -->
+    <string name="false_question_10">false</string>
+
+    <!-- Text for does your brain die [CHAR LIMIT-20] -->
+    <string name="does_your_brain_die">does your brain die?</string>
+
+    <!-- Hint for edittext field does your brain die [CHAR LIMIT-20] -->
+    <string name="type_your_answer_here">Type your answer here</string>
+
+    <!-- Hint for on average, how much does the brain weigh? [CHAR LIMIT-20] -->
+    <string name="type_your_answer_here_in_pounds">Type your answer here</string>
+
+    <!-- Text for your mind is located in your brain [CHAR LIMIT-20] -->
+    <string name="your_mind_is_located_in_your_brain">your mind is located in your brain</string>
+
+    <!-- Text for where is your brain located? [CHAR LIMIT-20] -->
+    <string name="where_is_your_brain_located">where is your brain located?</string>
+
+    <!-- Text for how many glands are in the brain? [CHAR LIMIT-20] -->
+    <string name="how_many_glands_are_in_the_brain">how many glands are in the brain?</string>
+
+    <!-- Text for name the glands below [CHAR LIMIT-20] -->
+    <string name="choose_from_the_glands_below">what are they?</string>
+
+    <!-- Text for on average, how much does the brain weigh? [CHAR LIMIT-20] -->
+    <string name="on_average_how_much_does_the_brain_weigh">on average, how much does the brain weigh? In pounds</string>
+
+    <!-- Text for which is formed first during the developing stages of an embryo? [CHAR LIMIT-20] -->
+    <string name="which_is_formed_first_during_the_developing_stages_of_an_embryo">which is formed first during the developing stages of an embryo?</string>
+
+    <!-- Text for brain blood vessels are long enough to wrap around the whole earth four times when stretched out [CHAR LIMIT-20] -->
+    <string name="brain_blood_vessels_are_long_enough_to_wrap_around_the_whole_earth_four_times_when_stretched_out">brain blood vessels are long enough to wrap around the whole earth four times when stretched out</string>
+
+    <!-- Text for your brain is the only brain [CHAR LIMIT-20] -->
+    <string name="your_brain_is_the_only_brain">your brain is the only brain</string>
+
+    <!-- Content description of picture of brain lifting weights [CHAR LIMIT-20] -->
+    <string name="picture_of_brain_lifting_weights">picture of brain lifting weights</string>
+
+    <!-- Text for check results! [CHAR LIMIT-20] -->
+    <string name="check_results">score</string>
+
+    <!-- Text for brain answer to which is formed first during the developing stages of an embryo? [CHAR LIMIT-20] -->
+    <string name="brain_answer">brain</string>
+
+    <!-- Text for heart answer to which is formed first during the developing stages of an embryo? [CHAR LIMIT-20] -->
+    <string name="heart_answer">heart</string>
+
+    <!-- Name for the order summary. It will be shown in the format of "Name : Amy" where Amy is the users name.
+    [CHAR LIMIT-NONE] -->
+    <string name="order_summary_name" translatable="false">Name : <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+    <!-- Text for pineal gland answer [CHAR LIMIT-20] -->
+    <string name="pineal_answer">Pineal gland</string>
+
+    <!-- Text for sweat answer [CHAR LIMIT-20] -->
+    <string name="sweat_answer">Sweat gland</string>
+
+    <!-- Text for pertutary answer [CHAR LIMIT-20] -->
+    <string name="pertutary_answer">Pertutary gland</string>
+
+    <!-- Text for pituitary answer [CHAR LIMIT-20] -->
+    <string name="pituitary_answer">Pituitary gland</string>
+
+    <!-- Text for 0 radiobutton [CHAR LIMIT-20] -->
+    <string name="_0">0</string>
+
+    <!-- Text for 1 radiobutton [CHAR LIMIT-20] -->
+    <string name="_1">1</string>
+
+    <!-- Text for 2 radiobutton [CHAR LIMIT-20] -->
+    <string name="_2">2</string>
+
+    <!-- Text for 3 radiobutton [CHAR LIMIT-20] -->
+    <string name="_3">3</string>
+
+
+
+
+
+</resources>

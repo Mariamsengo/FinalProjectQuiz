@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="true_question_1" type="id" />
+    <item name="false_question_1" type="id" />
+    <item name="true_question_3" type="id" />
+    <item name="false_question_3" type="id" />
+    <item name="pineal_answer" type="id" />
+    <item name="pineal_checkbox" type="id" />
+    <item name="sweat_checkbox" type="id" />
+    <item name="pertutary_checkbox" type="id" />
+    <item name="pituitary_checkbox" type="id" />
+    <item name="_0" type="id" />
+    <item name="_1" type="id" />
+    <item name="_2" type="id" />
+    <item name="_3" type="id" />
+    <item name="brain_answer" type="id" />
+    <item name="heart_answer" type="id" />
+    <item name="true_question_9" type="id" />
+    <item name="false_question_9" type="id" />
+    <item name="true_question_10" type="id" />
+    <item name="false_question_10" type="id" />
+
+</resources>

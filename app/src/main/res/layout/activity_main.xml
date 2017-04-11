@@ -1,0 +1,424 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/How_well_do_you_know_your_brain"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/name_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/enter_your_name_here"
+            android:inputType="textPersonName|textCapWords"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/picture_of_brain_lifting_weights"
+            android:scaleType="fitCenter"
+            android:src="@drawable/strongbrain" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/the_brain_feels_no_pain"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@id/true_question_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/true_question_1"
+                android:textAllCaps="true" />
+
+            <RadioButton
+                android:id="@id/false_question_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/false_question_1"
+                android:textAllCaps="true" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/does_your_brain_die"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/question_2_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/type_your_answer_here"
+            android:inputType="textCapWords"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/your_mind_is_located_in_your_brain"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@id/true_question_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/true_question_3"
+                android:textAllCaps="true" />
+
+            <RadioButton
+                android:id="@id/false_question_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/false_question_3"
+                android:textAllCaps="true" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/where_is_your_brain_located"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/question_4_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/type_your_answer_here"
+            android:inputType="textCapWords"
+            android:paddingTop="10dp"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/how_many_glands_are_in_the_brain"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@id/_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_0" />
+
+            <RadioButton
+                android:id="@id/_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_1" />
+
+            <RadioButton
+                android:id="@id/_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_2" />
+
+            <RadioButton
+                android:id="@id/_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_3" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/choose_from_the_glands_below"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@id/pineal_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pineal_answer"
+            android:textAllCaps="true" />
+
+        <CheckBox
+            android:id="@id/sweat_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sweat_answer"
+            android:textAllCaps="true" />
+
+        <CheckBox
+            android:id="@id/pertutary_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pertutary_answer"
+            android:textAllCaps="true" />
+
+        <CheckBox
+            android:id="@id/pituitary_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pituitary_answer"
+            android:textAllCaps="true" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/on_average_how_much_does_the_brain_weigh"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/question_7_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/type_your_answer_here"
+            android:inputType="textCapWords"
+            android:paddingTop="10dp"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/which_is_formed_first_during_the_developing_stages_of_an_embryo"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@id/brain_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/brain_answer"
+                android:textAllCaps="true" />
+
+            <RadioButton
+                android:id="@id/heart_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/heart_answer"
+                android:textAllCaps="true" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/brain_blood_vessels_are_long_enough_to_wrap_around_the_whole_earth_four_times_when_stretched_out"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@id/true_question_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/true_question_9"
+                android:textAllCaps="true" />
+
+            <RadioButton
+                android:id="@id/false_question_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/false_question_9"
+                android:textAllCaps="true" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/your_brain_is_the_only_brain"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@id/true_question_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/true_question_10"
+                android:textAllCaps="true" />
+
+            <RadioButton
+                android:id="@id/false_question_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/false_question_10"
+                android:textAllCaps="true" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/black">
+
+        </View>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="checkResults"
+            android:text="@string/check_results" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
